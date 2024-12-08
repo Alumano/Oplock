@@ -42,7 +42,7 @@ local MainColor = Color3.fromRGB(255, 255, 255);
 getgenv().Configurations = {
     Target = {
         Enabled = true,
-        Prediction = 0.163268,
+        Prediction = 0.148,
         AutoPrediction = false,
         AimPart = "HumanoidRootPart",
         AutoArmor = false,
@@ -63,7 +63,7 @@ getgenv().Configurations = {
         },
         HitPart = {
             Part = "HumanoidRootPart",
-            ClosestPart = false,
+            ClosestPart = true,
             Mode = "Nearest Part" -- Options: Nearest Point, Part
         },
         FOV = {
