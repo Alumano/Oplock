@@ -42,7 +42,7 @@ local MainColor = Color3.fromRGB(255, 255, 255);
 getgenv().Configurations = {
     Target = {
         Enabled = true,
-        Prediction = 0.1244,
+        Prediction = 0.083,
         AutoPrediction = true,
         AimPart = "HumanoidRootPart",
         AutoArmor = false,
@@ -57,7 +57,7 @@ getgenv().Configurations = {
             UseShake = false,
             Shake = 3,
             Smoothness = true,
-            SmoothnessAmount = 0.165,
+            SmoothnessAmount = 0.05,
             Style = "Elastic",
             Direction = "InOut"
         },
