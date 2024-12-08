@@ -1,5 +1,4 @@
 
-
 for Key, Object in pairs(getgc(true)) do
     if type(Object) == "table" then
         setreadonly(Object, false)
@@ -42,18 +41,18 @@ local MainColor = Color3.fromRGB(255, 255, 255);
 getgenv().Configurations = {
     Target = {
         Enabled = true,
-        Prediction = 0.138,
+        Prediction = 0.16326833333333332,
         AutoPrediction = false,
         AimPart = "HumanoidRootPart",
         AutoArmor = false,
         Notify = true,
         AirPartEnabled = true,
-        AirPart = "UpperTorso",
+        AirPart = "LowerTorso",
         LookAt = false,
         Spectate = false,
         AutoAir = true,
         CameraLock = {
-            Enabled = true,
+            Enabled = false,
             UseShake = false,
             Shake = 3,
             Smoothness = true,
@@ -81,7 +80,7 @@ getgenv().Configurations = {
         Enabled = false,
         Visualize = true,
         Prediction = 0.16326833333333332,
-        Range = 17,5,
+        Range = 16,8,
         UseDelay = true,
         Delay = 0.05
     },
