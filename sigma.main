@@ -43,7 +43,7 @@ getgenv().Configurations = {
     Target = {
         Enabled = true,
         Prediction = 0.148,
-        AutoPrediction = false,
+        AutoPrediction = true,
         AimPart = "HumanoidRootPart",
         AutoArmor = false,
         Notify = true,
@@ -57,13 +57,13 @@ getgenv().Configurations = {
             UseShake = false,
             Shake = 3,
             Smoothness = true,
-            SmoothnessAmount = 0.119,
+            SmoothnessAmount = 0.14,
             Style = "Elastic",
             Direction = "InOut"
         },
         HitPart = {
             Part = "HumanoidRootPart",
-            ClosestPart = true,
+            ClosestPart = false,
             Mode = "Nearest Part" -- Options: Nearest Point, Part
         },
         FOV = {
@@ -80,8 +80,8 @@ getgenv().Configurations = {
     TriggerBot = {
         Enabled = false,
         Visualize = true,
-        Prediction = 0.163268,
-        Range = 17,
+        Prediction = 0.16326833333333332,
+        Range = 17,5,
         UseDelay = true,
         Delay = 0.05
     },
